@@ -298,7 +298,7 @@ export function createTransport(
       );
       return sessionId;
     },
-    enableJsonResponse: true, // Use JSON responses instead of SSE
+    //enableJsonResponse: true, // Use JSON responses instead of SSE
   });
 
   logger.info({ agentId }, "Transport instance created");
